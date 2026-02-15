@@ -1,0 +1,40 @@
+Total documents: 3708
+Classes: {'SPORT', 'POLITICS'}
+
+Naive Bayes Results
+Accuracy: 0.9514824797843666
+              precision    recall  f1-score   support
+
+    POLITICS       0.98      0.91      0.94       327
+       SPORT       0.93      0.98      0.96       415
+
+    accuracy                           0.95       742
+   macro avg       0.96      0.95      0.95       742
+weighted avg       0.95      0.95      0.95       742
+
+
+Logistic Regression Results
+Accuracy: 0.9433962264150944
+              precision    recall  f1-score   support
+
+    POLITICS       0.96      0.91      0.93       327
+       SPORT       0.93      0.97      0.95       415
+
+    accuracy                           0.94       742
+   macro avg       0.95      0.94      0.94       742
+weighted avg       0.94      0.94      0.94       742
+
+
+SVM Results
+Accuracy: 0.9528301886792453
+              precision    recall  f1-score   support
+
+    POLITICS       0.97      0.92      0.95       327
+       SPORT       0.94      0.98      0.96       415
+
+    accuracy                           0.95       742
+   macro avg       0.95      0.95      0.95       742
+weighted avg       0.95      0.95      0.95       742
+
+Results saved to results.txt
+Graph saved to model_comparison.png
